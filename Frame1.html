@@ -1,0 +1,17 @@
+<!-- Framing Using Cols and Rows -->
+    <html>
+    <head>
+        <title> Using Cols and Rows </title>
+    </head>
+    
+    <frameset rows="10%, 90%"> <!--Frameset is a Container Tag, attribute row is used to add a row and its size can be in pixels(px) or %-->
+        <frame src = "./Files/a1.html"> <!--Frame is an Empty Tag, src is source-->
+    <frameset cols="100%, 100%"> <!--attribute cols is used to add column and its size can be in pixels(px) or %-->
+        <frame src="HTMLBASICS5.html">
+    <frameset rows="50%, 50%">
+        <frame src = "HTMLBASICS3.html">
+        <frame src = "HTMLBASICS6.html">  
+    </frameset>
+</html>
+
+<!--<frameset rows="*, 90%">, here we can use * and it will automatically calculate the remaining size to its full resolution-->
