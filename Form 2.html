@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body background="./Files/images/11.jpg">
+        <header>
+            <table border="5" bordercolor = "#F6FF33" height = "100" width = "500" align="center"><tr><td>
+            <td rowspan = "2"><img src="./Files/images/9.jpeg" height="100" width="100">
+            <td rowspan = "2"><h1 align="center"><font color="White">Student Admission Form:</font></h1></td></tr>
+        </header>
+        <table border="5" bordercolor="F6FF33" height = "100" width = "500" align="center"><tr><td><font color="white" size="4"><i><b><br><br>
+        <form action="./Marquee_1.html" method="get" align="left"> <!--get/post in method, to secure data we use post, but get is faster than post. Post can pass 2000 values but get can pass unlimited values-->
+            <label for="fname">First Name:</label>
+                <input type="text" name="fname" placeholder="First Name"><br>
+                <label for="lname">Last Name:</label>
+                <input type="text" name="lname" placeholder="Last Name"><br><br>
+                <label for="Gender:">Gender:</label><br>
+                <input type="radio" value="scorr">Male
+                <input type="radio" value="scorr">Female<br><br>
+                <label for="email">Email:</label>
+                <input type="email" name="Email" placeholder="xyz2004@gmail.com"><br>
+                <label for="Password">Password:</label>
+                <input type="password"><br><br>
+                <label for="Mother Name">Mother Name:</label>
+                <input type="text"><br>
+                <label for="Father Name">Father Name:</label>
+                <input type="text"><br><br>
+                <label type="text" value="Add.">Address:</label>
+                <input type="text"><br><br>
+                <label for="Age:">Age:</label>
+                <input type="number" value="nums"><br><br>
+                <label for="Hobbies:">Hobbies:</label><br>
+                <input type="checkbox" value="mcorr">Astronomy<br>
+                <input type="checkbox" value="mcorr">Cricket<br>
+                <input type="checkbox" value="mcorr">Football<br>
+                <input type="checkbox" value="mcorr">Basketball<br>
+                <input type="checkbox" value="mcorr">Guitar<br>
+                <input type="checkbox" value="mcorr">Skating<br>
+                <input type="checkbox" value="mcorr">Running<br>
+                <input type="checkbox" value="mcorr">Cycling<br>
+                <label for="Other:">Other:
+                <input type="text"><br><br>
+                <label for="Marks:">Marks in 10th Class(in %):</label>
+                <input type="number" value="nums"><br>
+                <label for="Marks:">Marks in 12th Class(in %):</label>
+                <input type="number" value="nums"><br><br>
+                <label for="Tell Us About Yourself:">Tell Us About Yourself:</label><br>
+                <textarea rows="7" cols="60" required></textarea><br>
+                <input type="reset"><br>
+                <input type="submit" value="submit">
+        </form>
+        </b></i>    
+        </font>
+        </td></tr>
+        </table>
+    </body>
+</html>
